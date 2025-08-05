@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Comparativo de Notebooks</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h1>Comparativo de Notebooks</h1>
+  
+  <div class="filtros">
+    <label for="perfil">Selecione seu perfil:</label>
+    <select id="perfil">
+      <option value="todos">Todos os Perfis</option>
+      <option value="gamer">Gamer</option>
+      <option value="video">Editor de Vídeo</option>
+      <option value="programador">Programador</option>
+      <option value="bi">Empresa de BI</option>
+      <option value="empresa">Uso Corporativo</option>
+    </select>
+    <button id="filtrar">Filtrar</button>
+  </div>
+
+  <div class="comparativo">
+    <table id="tabela-comparativa">
+      <thead>
+        <tr>
+          <th>Modelo</th>
+          <th>Especificações</th>
+          <th>Pontos Positivos</th>
+          <th>Pontos Negativos</th>
+          <th>Perfil Recomendado</th>
+        </tr>
+      </thead>
+      <tbody id="notebooks-container">
+      </tbody>
+    </table>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

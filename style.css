@@ -1,0 +1,149 @@
+body {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  background-color: #373737;
+  line-height: 1.6;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 30px;
+  color: #ffffff;
+}
+
+.filtros {
+  background-color: #fff;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  margin-bottom: 20px;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.filtros label {
+  font-weight: bold;
+}
+
+.filtros select, .filtros button {
+  padding: 8px 12px;
+  border-radius: 4px;
+  border: 1px solid #ddd;
+}
+
+.filtros button {
+  background-color: #4d057a;
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.filtros button:hover {
+  background-color: #60168e;
+}
+
+.comparativo {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  overflow-x: auto;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  padding: 12px 15px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+th {
+  background-color: #4d057a;
+  color: white;
+  position: sticky;
+  top: 0;
+}
+
+tr:hover {
+  background-color: #f5f5f5;
+}
+
+.especificacoes {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 5px;
+}
+
+.especificacao-item {
+  display: flex;
+}
+
+.especificacao-item strong {
+  min-width: 100px;
+  display: inline-block;
+}
+
+.lista {
+  padding-left: 20px;
+  margin: 5px 0;
+}
+
+.lista li {
+  margin-bottom: 5px;
+}
+
+.perfil {
+  font-weight: bold;
+  padding: 5px 10px;
+  border-radius: 4px;
+  display: inline-block;
+}
+
+.perfil-gamer {
+  background-color: #ffebee;
+  color: #c62828;
+}
+
+.perfil-video {
+  background-color: #e3f2fd;
+  color: #1565c0;
+}
+
+.perfil-programador {
+  background-color: #e8f5e9;
+  color: #2e7d32;
+}
+
+.perfil-bi {
+  background-color: #f3e5f5;
+  color: #6a1b9a;
+}
+
+.perfil-empresa {
+  background-color: #fff3e0;
+  color: #e65100;
+}
+
+img{
+  width: 170px;
+}
+
+@media (max-width: 768px) {
+  .filtros {
+    flex-direction: column;
+    align-items: stretch;
+  }
+  
+  table {
+    font-size: 14px;
+  }
+  
+  th, td {
+    padding: 8px 10px;
+  }
+}

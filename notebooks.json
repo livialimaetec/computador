@@ -1,0 +1,127 @@
+[
+  {
+    "nome": "Notebook Gamer ROG Strix G16, NVidia RTX4060",
+    "imagem": "../img/gamer.jpg",
+    "descricao": "Notebook de alta performance para jogos e tarefas pesadas",
+    "especificacoes": {
+      "processador": "Intel Core i7-13650HX (14 núcleos)",
+      "ram": "16GB DDR5",
+      "ssd": "512GB NVMe",
+      "tela": "16\" FHD 165Hz",
+      "gpu": "NVIDIA RTX 4060 8GB",
+      "sistema": "Windows 11"
+    },
+    "positivos": [
+      "Tela de Alta Qualidade",
+      "Bom desempenho gráfico",
+      "Resfriamento Eficiente",
+      "Teclado RGB personalizável"
+    ],
+    "negativos": [
+      "Peso e Tamanho",
+      "Armazenamento Limitado",
+      "Bateria de curta duração"
+    ],
+    "perfil": "Gamer"
+  },
+  {
+    "nome": "MacBook Pro 14\" M2 Pro",
+    "imagem": "../img/macbook.webp",
+    "descricao": "Notebook premium para profissionais criativos",
+    "especificacoes": {
+      "processador": "Apple M2 Pro (12 núcleos)",
+      "ram": "16GB unificada",
+      "ssd": "1TB SSD",
+      "tela": "14.2\" Retina XDR",
+      "gpu": "GPU 19-core",
+      "sistema": "macOS"
+    },
+    "positivos": [
+      "Excelente desempenho",
+      "Tela de altíssima qualidade",
+      "Bateria de longa duração",
+      "Silencioso (sem ventoinhas)"
+    ],
+    "negativos": [
+      "Preço elevado",
+      "Pouca compatibilidade com alguns softwares",
+      "Limitado para upgrades"
+    ],
+    "perfil": "Editor de Vídeo"
+  },
+  {
+    "nome": "Dell XPS 15 9530",
+    "imagem": "../img/xps.avif",
+    "descricao": "Notebook premium para profissionais e desenvolvedores",
+    "especificacoes": {
+      "processador": "Intel Core i7-13700H",
+      "ram": "32GB DDR5",
+      "ssd": "1TB NVMe",
+      "tela": "15.6\" 4K OLED",
+      "gpu": "NVIDIA RTX 4050 6GB",
+      "sistema": "Windows 11 Pro"
+    },
+    "positivos": [
+      "Construção premium",
+      "Tela OLED de alta qualidade",
+      "Boa performance para desenvolvimento",
+      "Teclado confortável"
+    ],
+    "negativos": [
+      "Preço elevado",
+      "Pode esquentar sob carga pesada",
+      "Webcam apenas 720p"
+    ],
+    "perfil": "Programador"
+  },
+  {
+    "nome": "Lenovo ThinkPad P16s",
+    "imagem": "../img/lenovoT.jpg",
+    "descricao": "Notebook corporativo para análise de dados",
+    "especificacoes": {
+      "processador": "Intel Core i7-1260P",
+      "ram": "32GB DDR4",
+      "ssd": "512GB NVMe",
+      "tela": "16\" WUXGA",
+      "gpu": "NVIDIA T550 4GB",
+      "sistema": "Windows 11 Pro"
+    },
+    "positivos": [
+      "Durabilidade comprovada",
+      "Teclado excelente",
+      "Boa performance para BI",
+      "Segurança empresarial"
+    ],
+    "negativos": [
+      "Design conservador",
+      "Peso elevado",
+      "Tela não é a mais brilhante"
+    ],
+    "perfil": "Empresa de BI"
+  },
+  {
+    "nome": "HP EliteBook 840 G9",
+    "imagem": "../img/hpElite.jfif",
+    "descricao": "Notebook corporativo para uso geral",
+    "especificacoes": {
+      "processador": "Intel Core i5-1235U",
+      "ram": "16GB DDR4",
+      "ssd": "256GB NVMe",
+      "tela": "14\" FHD",
+      "gpu": "Intel Iris Xe",
+      "sistema": "Windows 11 Pro"
+    },
+    "positivos": [
+      "Leve e portátil",
+      "Bateria de longa duração",
+      "Segurança empresarial",
+      "Preço acessível para empresas"
+    ],
+    "negativos": [
+      "Performance limitada",
+      "Armazenamento pequeno",
+      "Tela básica"
+    ],
+    "perfil": "Uso Corporativo"
+  }
+]
