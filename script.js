@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', () => {
-  fetch('./data/notebooks.json')
+  fetch('notebooks.json')
     .then(r => r.json())
     .then(d => {
       exibirNotebooks(d);

@@ -1,7 +1,7 @@
 [
   {
     "nome": "ROG Strix G16 RTX4060",
-    "img": "../img/gamer.jpg",
+    "img": "gamer.jpg",
     "desc": "High performance para jogos",
     "esp": {
       "cpu": "i7-13650HX (14 núcleos)",
@@ -26,7 +26,7 @@
   },
   {
     "nome": "MacBook Pro 14\" M2",
-    "img": "../img/macbook.webp",
+    "img": "macbook.webp",
     "desc": "Premium para criativos",
     "esp": {
       "cpu": "M2 Pro (12 núcleos)",
@@ -51,7 +51,7 @@
   },
   {
     "nome": "Dell XPS 15 9530",
-    "img": "../img/xps.avif",
+    "img": "xps.avif",
     "desc": "Para devs e profissionais",
     "esp": {
       "cpu": "i7-13700H",
@@ -76,7 +76,7 @@
   },
   {
     "nome": "ThinkPad P16s",
-    "img": "../img/lenovoT.jpg",
+    "img": "lenovoT.jpg",
     "desc": "Para análise de dados",
     "esp": {
       "cpu": "i7-1260P",
@@ -101,7 +101,7 @@
   },
   {
     "nome": "HP EliteBook 840 G9",
-    "img": "../img/hpElite.jfif",
+    "img": "hpElite.jfif",
     "desc": "Uso corporativo geral",
     "esp": {
       "cpu": "i5-1235U",
