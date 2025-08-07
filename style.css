@@ -1,149 +1,203 @@
-body {
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
   font-family: Arial, sans-serif;
-  padding: 20px;
-  background-color: #373737;
-  line-height: 1.6;
 }
 
-h1 {
+body {
+  background-color: #1e272e;
+  color: #f5f6fa;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  background-color: #6c5ce7;
+  padding: 1.5rem;
   text-align: center;
-  margin-bottom: 30px;
-  color: #ffffff;
+}
+
+.logo h1 {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+}
+
+.logo p {
+  font-size: 1.2rem;
+  opacity: 0.9;
+}
+
+main {
+  flex: 1;
+  padding: 1.5rem;
+  max-width: 1400px;
+  margin: 0 auto;
+  width: 100%;
 }
 
 .filtros {
-  background-color: #fff;
-  padding: 15px;
-  border-radius: 8px;
-  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-  margin-bottom: 20px;
+  margin-bottom: 2rem;
+}
+
+.filtro-container {
   display: flex;
-  gap: 10px;
+  gap: 1rem;
   align-items: center;
-}
-
-.filtros label {
-  font-weight: bold;
-}
-
-.filtros select, .filtros button {
-  padding: 8px 12px;
-  border-radius: 4px;
-  border: 1px solid #ddd;
-}
-
-.filtros button {
-  background-color: #4d057a;
-  color: white;
-  border: none;
-  cursor: pointer;
-  transition: background-color 0.3s;
-}
-
-.filtros button:hover {
-  background-color: #60168e;
-}
-
-.comparativo {
-  background-color: #fff;
+  flex-wrap: wrap;
+  padding: 1rem;
+  background-color: #2d3436;
   border-radius: 8px;
-  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.filtro-container label {
+  font-weight: 600;
+}
+
+select, button {
+  padding: 0.6rem 1rem;
+  border-radius: 6px;
+  border: none;
+  font-size: 0.9rem;
+}
+
+select {
+  background-color: #2d3436;
+  color: #f5f6fa;
+  border: 1px solid #636e72;
+}
+
+button {
+  background-color: #6c5ce7;
+  color: white;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #5d4aec;
+}
+
+.table-container {
   overflow-x: auto;
 }
 
 table {
   width: 100%;
   border-collapse: collapse;
+  background-color: #2d3436;
 }
 
 th, td {
-  padding: 12px 15px;
+  padding: 1rem;
   text-align: left;
-  border-bottom: 1px solid #ddd;
+  border-bottom: 1px solid #3d484d;
 }
 
 th {
-  background-color: #4d057a;
+  background-color: #6c5ce7;
   color: white;
   position: sticky;
   top: 0;
 }
 
 tr:hover {
-  background-color: #f5f5f5;
+  background-color: #3d484d;
 }
 
-.especificacoes {
+.notebook-img {
+  width: 170px;
+  height: auto;
+  border-radius: 4px;
+  margin-bottom: 0.5rem;
+}
+
+.especs {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 5px;
+  gap: 0.5rem;
+  font-size: 0.85rem;
 }
 
-.especificacao-item {
+.espec-item {
   display: flex;
 }
 
-.especificacao-item strong {
-  min-width: 100px;
+.espec-item strong {
+  min-width: 80px;
   display: inline-block;
+  color: #a29bfe;
 }
 
 .lista {
-  padding-left: 20px;
-  margin: 5px 0;
+  padding-left: 1rem;
+  font-size: 0.85rem;
+  list-style-type: disc;
 }
 
 .lista li {
-  margin-bottom: 5px;
+  margin-bottom: 0.3rem;
 }
 
 .perfil {
   font-weight: bold;
-  padding: 5px 10px;
+  padding: 0.3rem 0.6rem;
   border-radius: 4px;
-  display: inline-block;
+  font-size: 0.75rem;
 }
 
 .perfil-gamer {
-  background-color: #ffebee;
-  color: #c62828;
+  background-color: #c62828;
 }
 
 .perfil-video {
-  background-color: #e3f2fd;
-  color: #1565c0;
+  background-color: #1565c0;
 }
 
-.perfil-programador {
-  background-color: #e8f5e9;
-  color: #2e7d32;
+.perfil-prog {
+  background-color: #2e7d32;
 }
 
 .perfil-bi {
-  background-color: #f3e5f5;
-  color: #6a1b9a;
+  background-color: #6a1b9a;
 }
 
-.perfil-empresa {
-  background-color: #fff3e0;
-  color: #e65100;
+.perfil-emp {
+  background-color: #e65100;
 }
 
-img{
-  width: 170px;
+footer {
+  text-align: center;
+  padding: 1.5rem;
+  background-color: #2d3436;
+  margin-top: 2rem;
+  font-size: 0.9rem;
+  color: #636e72;
 }
 
 @media (max-width: 768px) {
-  .filtros {
-    flex-direction: column;
-    align-items: stretch;
+  .logo h1 {
+    font-size: 1.5rem;
   }
   
-  table {
-    font-size: 14px;
+  .filtro-container {
+    flex-direction: column;
+  }
+  
+  select, button {
+    width: 100%;
   }
   
   th, td {
-    padding: 8px 10px;
+    padding: 0.75rem 0.5rem;
+    font-size: 0.8rem;
+  }
+  
+  .especs {
+    grid-template-columns: 1fr;
+  }
+  
+  .notebook-img {
+    width: 120px;
   }
 }
